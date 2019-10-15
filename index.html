@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Sales list</title>
+   
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="images/deep-learning.png" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+   
+</head>
+	<body>
+		<div class="container">
+			<div class="timer-point">
+		    	<div id="timer" class="left"></div>
+		    	<div id="currentPoints" class="right"></div>
+			</div>
+			<div class="logo-container">
+		    	<img class="logo" src="images/deep-learning.png" alt="CS">
+		    	<div>Computer Science</div>
+		    	<div class="arm">Typing game</div>
+			</div>
+			<div class="container-1">
+				<div id="startContent">
+					<div>
+						<div class="letterBlock">S</div>
+						<div class="letterBlock">T</div>
+						<div class="letterBlock">A</div>
+						<div class="letterBlock">R</div>
+						<div class="letterBlock">T</div>
+					</div>
+					<div><img src="images/start.png" id="startBtn" alt="Start"></div>
+				</div>
+				<div id="game" class="hidden">
+					<div id="letters"></div>				
+				</div>
+				<div class="hidden" id="gameOver">
+					<span>Game over</span>
+					<div id="points"></div>
+				</div>
+			</div>
+			<div class="container-3">
+				<input type="text" class="answer" id="answer" placeholder="type">
+			</div>
+		</div>
+		
+
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/game.js"></script>
+	</body>
+</html>
